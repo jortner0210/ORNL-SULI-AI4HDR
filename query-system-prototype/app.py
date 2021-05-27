@@ -12,7 +12,7 @@ from pathlib import Path
 from werkzeug.utils import secure_filename
 from tqdm import tqdm
 
-from flask import Flask, render_template, jsonify, send_file, request
+from flask import Flask, render_template, jsonify, send_file, request, flash, redirect
 
 from backend.Database import queryImageIdx, importAndProcess, getRandomIds, DatabaseNotFound
 
@@ -195,6 +195,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     DATABASE_NAME = args.db_loc
+
+    app.secret_key = 'super secret key'
+    app.config['SESSION_TYPE'] = 'filesystem'
 
     if DATABASE_NAME is None:
         raise DatabaseNotFound("Please provide a database location")

@@ -35,6 +35,7 @@ content {
 
 .upload-header-container {
     grid-area: header;
+    width: 300px;
 }
 
 .upload-header-container h1 {

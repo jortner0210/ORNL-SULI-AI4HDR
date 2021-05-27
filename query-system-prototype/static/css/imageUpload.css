@@ -1,0 +1,46 @@
+content {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    grid-area: main-content;
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr auto 1fr;
+
+    grid-template-areas: 
+        ". .                     ."
+        ". upload-file-container ."
+        ". .                     .";
+}
+
+.upload-file-container {
+    grid-area: upload-file-container;
+
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    background-color: #747474;
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+    grid-template-rows: 1fr 30% 1fr 30% 1fr;
+
+    grid-template-areas: 
+        ". .      ."
+        ". header ."
+        ". form   ."
+        ". .      .";
+    border-radius: 5px;
+}
+
+.upload-header-container {
+    grid-area: header;
+}
+
+.upload-header-container h1 {
+    color: white
+}
+
+.upload-form-container {
+    grid-area: form;
+}

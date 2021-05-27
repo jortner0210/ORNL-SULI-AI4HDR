@@ -1,0 +1,41 @@
+content {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  grid-area: main-content;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 1fr;
+
+  grid-template-areas: 
+    ". .             ."
+    ". action-select ."
+    ". .             .";
+}
+
+#action-select {
+  grid-area: action-select;
+  border: black;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+}
+    
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: #ecf0f1;
+}

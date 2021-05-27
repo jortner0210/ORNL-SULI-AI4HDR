@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 5px 1fr 5px;
+
+    grid-template-areas: 
+        "header      "
+        ".           "
+        "main-content"
+        ".           ";
+}
+
+canvas {
+    display: block;
+}
+
+header {
+    color: white;
+    background-color: #272727;
+    grid-area: header;
+    padding: 15px;
+}
+
+.canvas-image-view-container {
+    width: 100%;
+    height: 100vh;
+    grid-area: main-content;
+
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr;
+    grid-template-rows: 100%;
+
+    grid-template-areas: 
+        "canvas-area . image-area";
+}
+
+#canvas-view {
+    grid-area: canvas-area;
+    background-color: black;
+}
+
+#graph-3d {
+    width: 100%;
+}
+
+#image-view {
+    grid-area: image-area;
+    background-color: #f1f1f1;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-card {
+    margin: 5px;
+
+    border-style: solid;
+    border-width: thin;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 1fr auto;
+
+    grid-template-areas: 
+        "image-card-header"
+        ".                "
+        "image-card-image ";
+}
+
+.image-card-header {
+    grid-area: image-card-header;
+}
+
+.image-card-image {
+    grid-area: image-card-image;
+}
+

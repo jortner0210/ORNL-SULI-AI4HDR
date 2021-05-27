@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for( 'static', filename='css/index.css' ) }}">
+{% endblock %}
+
+
+{% block body %}
+
+    <content>
+
+        <div id="action-select">
+            <ul>
+                <li><a href="/view-database">Explore Database</a></li>
+                <li><a href="/image-upload">Upload Image File</a></li>
+            </ul>
+        </div>
+
+    </content>
+
+{% endblock %}

@@ -10,7 +10,7 @@
         python app.py --db_loc=<database-location>
 
     - To access from another machine on the same network, establish ssh tunnel: 
-        ssh -N -f -L localhost:8080:localhost:8000 <username>@cusg0 
+        ssh -N -f -L localhost:8080:localhost:8000 <username>@<host> 
 
     - Using a web browser, navigate to: localhost:8080
     

@@ -1,6 +1,11 @@
+## Project: Artificial Intelligence for Humanitarian Disaster Response - Image Retrieval
+The project is a prototype application based on the research done during a term at Oak Ridge National Laboratory with the Science Undergraduate Laboratory Internships (SULI) program. The goal of the project was to explore ways in which AI techniques could be used to aid first responders in the task of damage assessment after a natural disaster using aeriel imagery. 
+
+The prototype, located in the "query-system-prototype" directory, is an image storage and content-based retieval system. An interactive 3D network visualization consisting of nodes and edges is used as the main query mechanism. Nodes in the network represent images while edges represent query relationships. Users are able to select nodes that represent images of interest (i.e. images containing flood water and buildings), and the system uses a pre-trained Convolution Neural Network to find other images in the database with similar high-level features.
+
 ## AI4HDR-IR Prototype Use:
     - Setup Environment:
-        conda create --name <env_name>
+        conda create -n <env_name> python=3.6
         conda activate <env_name>
         pip install -r requirements.txt
 
@@ -53,6 +58,28 @@
     - To install pymeanshift: pip install git+git://github.com/fjean/pymeanshift.git
 
 
+## Acknowledgement 
+This work was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships Program (SULI) program at Oak Ridge National Laboratory, administered by the Oak Ridge Institute for Science and Education.
+
+
+## Image Data shown in screen shots provided by:
+Originator: Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division
+Publication Date: 201608
+Title: Flooding 20160814: Rapid Response Imagery of the Surrounding Regions
+Publication Information:
+
+Publication Place: Silver Spring, MD
+Publisher: NOAA's Ocean Service, National Geodetic Survey (NGS)
+
+Online Linkage: http://geodesy.noaa.gov/storm_archive/storms/aug2016_lafloods/index.html
+
+Description:
+
+Abstract: The imagery posted on this site is of the Flooding from 20160814. The aerial photography missions were conducted by the NOAA Remote Sensing Division. The images were acquired from a nominal altitude of 5000 feet, using a Trimble Digital Sensor System (DSS).
+Purpose: This imagery was acquired by the NOAA Remote Sensing Division to support NOAA national security and emergency response requirements. This rapid response product was generated for use by emergency managers for visual analysis of damage in the area. It is not intended for mapping, charting or navigation. In addition, it will be used for ongoing research efforts for testing and developing standards for airborne digital imagery.
+Supplemental Information: The ground sample distance (GSD) for each pixel is 50 cm. In an effort to acquire imagery in a timely manner after the event, clouds may be present in the imagery. Be advised that the Bounding Coordinates reflect the extents of the images acquired for this event and do not imply full image coverage of the area.
+
+
 ## License
 Copyright 2021 Josh Ortner
 
@@ -61,6 +88,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-## Acknowledgement 
-This work was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships Program (SULI) program at Oak Ridge National Laboratory, administered by the Oak Ridge Institute for Science and Education.

@@ -1,7 +1,7 @@
 ## Artificial Intelligence for Humanitarian Disaster Response - Image Retrieval
-The project is a prototype application based on the research done during a term at Oak Ridge National Laboratory with the Science Undergraduate Laboratory Internships (SULI) program. The goal of the project was to explore ways in which AI techniques could be used to aid first responders in the task of damage assessment after a natural disaster using aeriel imagery. 
+This project is a prototype application based on research done during a term at Oak Ridge National Laboratory with the Science Undergraduate Laboratory Internships (SULI) program. The goal of the project was to explore ways in which AI techniques could be used to aid first responders in the task of damage assessment after a natural disaster using aeriel imagery. 
 
-The prototype, located in the "query-system-prototype" directory, is an image storage and content-based retieval system. An interactive 3D network visualization consisting of nodes and edges is used as the main query mechanism. Nodes in the network represent images while edges represent query relationships. Users are able to select nodes that represent images of interest (i.e. images containing flood water and buildings), and the system uses a pre-trained Convolution Neural Network to find other images in the database with similar high-level features.
+The prototype, located in the "query-system-prototype" directory, is an image storage and content-based retieval system. An interactive 3D network visualization consisting of nodes and edges is used as the main query mechanism. Nodes in the network represent images in the database while edges represent query relationships. Users are able to select nodes corresponding to an image of interest (i.e. images containing flood water and buildings), and the system uses a pre-trained Convolution Neural Network to find other images in the database with similar high-level features.
 
 ## Example:
 
@@ -68,7 +68,7 @@ The prototype, located in the "query-system-prototype" directory, is an image st
 This work was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships Program (SULI) program at Oak Ridge National Laboratory, administered by the Oak Ridge Institute for Science and Education.
 
 
-## Image Data shown in screen shots provided by:
+## Image Data shown in above examples was provided by:
 Originator: Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS), Remote Sensing Division
 Publication Date: 201608
 Title: Flooding 20160814: Rapid Response Imagery of the Surrounding Regions

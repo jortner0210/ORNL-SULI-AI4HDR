@@ -7,6 +7,8 @@ The prototype, located in the "query-system-prototype" directory, is an image st
 
 ![Example Image 1](media/screenshot.png)
 
+![Example GIF 1](media/recording.gif)
+
 ## AI4HDR-IR Prototype Use:
     - Setup Environment:
         conda create -n <env_name> python=3.6

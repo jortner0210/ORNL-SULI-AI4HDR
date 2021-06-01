@@ -86,8 +86,8 @@ Supplemental Information: The ground sample distance (GSD) for each pixel is 50 
 
 
 ## Contact
-Email: jo3f@mtmail.mtsu.edu
-Phone: 270-227-9769
+- Email: jo3f@mtmail.mtsu.edu
+- Phone: 270-227-9769
 
 ## License
 Copyright 2021 Josh Ortner

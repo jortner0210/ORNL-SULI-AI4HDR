@@ -1,6 +1,0 @@
-opencv-python
-tqdm
-sklearn
-tensorflow-gpu
-Pillow
-flask

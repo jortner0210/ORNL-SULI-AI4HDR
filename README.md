@@ -1,7 +1,11 @@
-## Project: Artificial Intelligence for Humanitarian Disaster Response - Image Retrieval
+## Artificial Intelligence for Humanitarian Disaster Response - Image Retrieval
 The project is a prototype application based on the research done during a term at Oak Ridge National Laboratory with the Science Undergraduate Laboratory Internships (SULI) program. The goal of the project was to explore ways in which AI techniques could be used to aid first responders in the task of damage assessment after a natural disaster using aeriel imagery. 
 
 The prototype, located in the "query-system-prototype" directory, is an image storage and content-based retieval system. An interactive 3D network visualization consisting of nodes and edges is used as the main query mechanism. Nodes in the network represent images while edges represent query relationships. Users are able to select nodes that represent images of interest (i.e. images containing flood water and buildings), and the system uses a pre-trained Convolution Neural Network to find other images in the database with similar high-level features.
+
+## Example:
+
+![Example Image 1](media/screenshot.png)
 
 ## AI4HDR-IR Prototype Use:
     - Setup Environment:
@@ -18,7 +22,7 @@ The prototype, located in the "query-system-prototype" directory, is an image st
         ssh -N -f -L localhost:8080:localhost:8000 <username>@<host> 
 
     - Using a web browser, navigate to: localhost:8080
-    
+
 
 ## CAEModel Use
     - Initialize:

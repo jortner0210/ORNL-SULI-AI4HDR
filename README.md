@@ -60,12 +60,11 @@ The prototype, located in the "query-system-prototype" directory, is an image st
 
 
 ## Other Notes:
-    
     - To install pymeanshift: pip install git+git://github.com/fjean/pymeanshift.git
 
 
 ## Acknowledgement 
-This work was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships Program (SULI) program at Oak Ridge National Laboratory, administered by the Oak Ridge Institute for Science and Education.
+This work was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships Program (SULI) program at Oak Ridge National Laboratory, administered by the Oak Ridge Institute for Science and Education. https://science.osti.gov/wdts
 
 
 ## Image Data shown in above examples was provided by:
@@ -85,6 +84,10 @@ Abstract: The imagery posted on this site is of the Flooding from 20160814. The 
 Purpose: This imagery was acquired by the NOAA Remote Sensing Division to support NOAA national security and emergency response requirements. This rapid response product was generated for use by emergency managers for visual analysis of damage in the area. It is not intended for mapping, charting or navigation. In addition, it will be used for ongoing research efforts for testing and developing standards for airborne digital imagery.
 Supplemental Information: The ground sample distance (GSD) for each pixel is 50 cm. In an effort to acquire imagery in a timely manner after the event, clouds may be present in the imagery. Be advised that the Bounding Coordinates reflect the extents of the images acquired for this event and do not imply full image coverage of the area.
 
+
+## Contact
+Email: jo3f@mtmail.mtsu.edu
+Phone: 270-227-9769
 
 ## License
 Copyright 2021 Josh Ortner
